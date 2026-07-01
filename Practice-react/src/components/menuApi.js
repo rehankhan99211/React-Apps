@@ -1,6 +1,9 @@
+ 
+ 
  const Menu= [
   {
     "id": 1,
+    "name": "Butter Chicken",
     "image": "https://example.com/images/butter-chicken.jpg",
     "category": "dinner",
     "price": 320,
@@ -8,13 +11,15 @@
   },
   {
     "id": 2,
-    "image": "https://example.com/images/paneer-tikka.jpg",
+    "name": "Paneer Tikka",
+    "image": "images/paneertikka.jpg",  
     "category": "lunch",
     "price": 260,
     "description": "Grilled paneer cubes marinated in yogurt and Indian spices."
   },
   {
     "id": 3,
+    "name": "Chicken Biryani",
     "image": "https://example.com/images/chicken-biryani.jpg",
     "category": "lunch",
     "price": 350,
@@ -22,6 +27,7 @@
   },
   {
     "id": 4,
+    "name": "Veg Pulao",
     "image": "https://example.com/images/veg-pulao.jpg",
     "category": "lunch",
     "price": 220,
@@ -29,6 +35,7 @@
   },
   {
     "id": 5,
+    "name": "Masala Dosa",
     "image": "https://example.com/images/masala-dosa.jpg",
     "category": "lunch",
     "price": 180,
@@ -36,6 +43,7 @@
   },
   {
     "id": 6,
+    "name": "Palak Paneer",
     "image": "https://example.com/images/palak-paneer.jpg",
     "category": "dinner",
     "price": 280,
@@ -43,6 +51,7 @@
   },
   {
     "id": 7,
+    "name": "Chole Bhature",
     "image": "https://example.com/images/chole-bhature.jpg",
     "category": "lunch",
     "price": 200,
@@ -50,6 +59,7 @@
   },
   {
     "id": 8,
+    "name": "Mutton Rogan Josh",
     "image": "https://example.com/images/mutton-rogan-josh.jpg",
     "category": "dinner",
     "price": 450,
@@ -57,6 +67,7 @@
   },
   {
     "id": 9,
+    "name": "Dal Makhani",
     "image": "https://example.com/images/dal-makhani.jpg",
     "category": "dinner",
     "price": 240,
@@ -64,6 +75,7 @@
   },
   {
     "id": 10,
+    "name": "Fish Curry",
     "image": "https://example.com/images/fish-curry.jpg",
     "category": "dinner",
     "price": 380,
@@ -71,6 +83,7 @@
   },
   {
     "id": 11,
+    "name": "Hakka Noodles",
     "image": "https://example.com/images/hakka-noodles.jpg",
     "category": "lunch",
     "price": 210,
@@ -78,6 +91,7 @@
   },
   {
     "id": 12,
+    "name": "Veg Fried Rice",
     "image": "https://example.com/images/veg-fried-rice.jpg",
     "category": "lunch",
     "price": 190,
@@ -85,6 +99,7 @@
   },
   {
     "id": 13,
+    "name": "Chicken Tikka",
     "image": "https://example.com/images/chicken-tikka.jpg",
     "category": "dinner",
     "price": 340,
@@ -92,6 +107,7 @@
   },
   {
     "id": 14,
+    "name": "Malai Kofta",
     "image": "https://example.com/images/malai-kofta.jpg",
     "category": "dinner",
     "price": 290,
@@ -99,6 +115,7 @@
   },
   {
     "id": 15,
+    "name": "Rajma Chawal",
     "image": "https://example.com/images/rajma-chawal.jpg",
     "category": "lunch",
     "price": 180,
@@ -106,6 +123,7 @@
   },
   {
     "id": 16,
+    "name": "Veg Thali",
     "image": "https://example.com/images/veg-thali.jpg",
     "category": "lunch",
     "price": 320,
@@ -113,6 +131,7 @@
   },
   {
     "id": 17,
+    "name": "Chicken Korma",
     "image": "https://example.com/images/chicken-korma.jpg",
     "category": "dinner",
     "price": 360,
@@ -120,6 +139,7 @@
   },
   {
     "id": 18,
+    "name": "Kadai Paneer",
     "image": "https://example.com/images/kadai-paneer.jpg",
     "category": "dinner",
     "price": 300,
@@ -127,6 +147,7 @@
   },
   {
     "id": 19,
+    "name": "Prawn Biryani",
     "image": "https://example.com/images/prawn-biryani.jpg",
     "category": "dinner",
     "price": 420,
@@ -134,6 +155,7 @@
   },
   {
     "id": 20,
+    "name": "Egg Curry",
     "image": "https://example.com/images/egg-curry.jpg",
     "category": "lunch",
     "price": 220,
@@ -141,6 +163,7 @@
   },
   {
     "id": 21,
+    "name": "Tandoori Roti Combo",
     "image": "https://example.com/images/tandoori-roti-combo.jpg",
     "category": "dinner",
     "price": 250,
@@ -148,6 +171,7 @@
   },
   {
     "id": 22,
+    "name": "Veg Manchurian",
     "image": "https://example.com/images/veg-manchurian.jpg",
     "category": "dinner",
     "price": 230,
@@ -155,6 +179,7 @@
   },
   {
     "id": 23,
+    "name": "Chicken Fried Rice",
     "image": "https://example.com/images/chicken-fried-rice.jpg",
     "category": "lunch",
     "price": 270,
@@ -162,6 +187,7 @@
   },
   {
     "id": 24,
+    "name": "Mushroom Masala",
     "image": "https://example.com/images/mushroom-masala.jpg",
     "category": "dinner",
     "price": 260,
@@ -169,6 +195,7 @@
   },
   {
     "id": 25,
+    "name": "Lamb Kebab",
     "image": "https://example.com/images/lamb-kebab.jpg",
     "category": "dinner",
     "price": 460,
@@ -176,6 +203,7 @@
   },
   {
     "id": 26,
+    "name": "Veg Lasagna",
     "image": "https://example.com/images/veg-lasagna.jpg",
     "category": "lunch",
     "price": 340,
@@ -183,6 +211,7 @@
   },
   {
     "id": 27,
+    "name": "Grilled Salmon",
     "image": "https://example.com/images/grilled-salmon.jpg",
     "category": "dinner",
     "price": 520,
@@ -190,6 +219,7 @@
   },
   {
     "id": 28,
+    "name": "Chicken Pasta",
     "image": "https://example.com/images/chicken-pasta.jpg",
     "category": "lunch",
     "price": 310,
@@ -197,18 +227,27 @@
   },
   {
     "id": 29,
+    "name": "Veg Burger",
     "image": "https://example.com/images/veg-burger.jpg",
-    "category": "lunch",
+    "category": "Veg",
     "price": 180,
     "description": "Crispy vegetable patty with fresh lettuce and cheese in a bun."
   },
   {
     "id": 30,
+    "name": "BBQ Chicken",
+    "image": "https://example.com/images/bbq-chicken.jpg",
+    "category": "dinner",
+    "price": 390,
+    "description": "Smoky BBQ chicken served with grilled vegetables and fries."
+  },
+  {
+    "id": 31,
+    "name": "Rehan special",
     "image": "https://example.com/images/bbq-chicken.jpg",
     "category": "dinner",
     "price": 390,
     "description": "Smoky BBQ chicken served with grilled vegetables and fries."
   }
-];
-
+]
 export default Menu;
